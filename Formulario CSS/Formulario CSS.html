@@ -1,0 +1,60 @@
+
+<html>
+    
+<!-- Formulario -->
+
+<style type="text/css">
+  section {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(1, 59, 107);
+    background-color: #d8da3d; position:absolute;
+  }
+  form {font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0); background-color: chocolate;}
+    
+</style>
+
+
+<section>
+    <h2>Registro</h2>
+    
+    <form name="Registro" id="Registro" method="get" autocomplete="off">
+      <br><label for="Nombre">Nombre</label><br>
+      <input type="text" required placeholder="Ej: Pedro" title="Escriba su primer nombre" name="Nombre" id="Nombre"><br><br>
+      <form>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+
+      <label for="Primer apellido">Primer Apellido</label><br>
+      <input type="text" required placeholder="Ej: Urdemales" title="Escriba su primer apellido" su primer apellido"
+        name="Primer apellido" id="Primer apellido"><br><br>
+
+      <label for="Segundo apellido">Segundo Apellido</label><br>
+      <input type="text" required placeholder="Ej: Arellano" title="Escriba su segundo apellido" name="Segundo apellido"
+        id="Segundo apellido"><br><br>
+
+      <label for="Edad">Edad</label><br>
+      <input type="number" min="18" max="100" required placeholder="Ej: 22" title="Seleccione o escriba su edad" name="Edad" id="Edad"><br><br>
+
+      <label for="Email">Email</label><br>
+      <input type="email" required placeholder="Ej: urdemales@gmail.com" title="Escriba su dirección de email" name="Email"
+        id="Email"><br><br>
+
+      <label for="Dom">Domicilio</label><br>
+      <input type="text" required placeholder="Ej: Las Quilas 665, Temuco"
+        title="Especifique su dirección con: calle, número y ciudad" name="Dom" id="Dom"><br><br>
+
+      <label for="aler">Sufre de alergias</label><br>
+      <input type="radio" name=opción value="1"> SI<br>
+      <input type="radio" name=opción value="2"> NO<br><br>
+    
+
+      <label for="Meds">Medicamentos Contraindicados</label><br>
+      <input type="text" required placeholder="Ej: Penicilina y Paracetamol"
+        title="En caso de no tener Medicamentos Contraindicados, solo escribir 'NO'" name="Meds" id="Meds"><br><br>
+
+      <input type="submit" value="enviar" name="enviar" id="enviar">
+
+    </form>
+ </section>
+
+  </html>

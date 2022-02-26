@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>FORMULARIO DE REGISTRO - LEVELSPORT</h1>
+
+
+    <form>
+        <div class="row">
+
+            <div class="col col-md-3">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" name="nombre" placeholder="Ingrese su Nombre" required>
+            </div>
+
+
+            <div class="col col-md-3">
+                <label for="apellido1">Primer Apellido</label>
+                <input id="apellido1" type="text" name="apellido1" placeholder="Ingrese Primer Apellido" required>
+            </div>
+
+            <div class="col col-md-3">
+                <label for="apellido2">Segundo Apellido</label>
+                <input type="text" name="apellido2" id="apellido2" placeholder="Ingrese Segundo Apellido" required>
+            </div>
+
+            <div class="col col-md-3">
+                <label for="edad">Edad</label>
+                <input id="edad" type="number" name="edad" min="12" max="80" required title="Seleccione o escriba su edad">
+            </div>
+
+            <div class="col col-md-3">
+                <label for="peso">Peso</label>
+                <input id="peso" type="number" min="30" max="150" name="peso" required title="Seleccione o escriba su peso"><br>
+            </div>
+
+            <div class="col col-md-3">
+                <label for="condicsalud">Condición de Salud</label>
+                <input id="condicsalud" type="text" name="condicsalud" placeholder="Ej: Saludable / Enfermo" required>
+            </div>
+
+            <div class="col col-md-3">
+
+                <label for="alergias">Alergias</label>
+                <input type="text" name="alergias" id="alergias" placeholder="Si / No" required>
+            </div>
+
+
+            <div class="col col-md-3">
+
+                <label for="medicamentos">Medicamentos contraindicados</label>
+                <input type="text" name="medicamentos" id="medicamentos" placeholder="Ej: Penicilina y Paracetamol" required>
+            </div>
+
+            <input id="boton" type="submit">
+            <input id="reset" type="reset" value="Limpiar">
+
+        </div>
+
+    </form>
+
+    <script defer src="logica1.js"></script>
+
+
+</body>
+
+
+</html>
