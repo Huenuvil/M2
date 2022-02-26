@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+  <title>Mi primera página con estilo</title>
+  <link rel="stylesheet" href="miestilo.css">
+</head>
+
+<body>
+
+  <!-- Menú de navegación del sitio -->
+  <ul class="navbar">
+    <li><a href="indice.html">Página principal</a>
+    <li><a href="meditaciones.html">Meditaciones</a>
+    <li><a href="ciudad.html">Mi ciudad</a>
+    <li><a href="enlaces.html">Enlaces</a>
+  </ul>
+
+  <!-- Contenido principal -->
+  <h1>Mi primera página con estilo</h1>
+  <section>
+    <p>¡Bienvenido a mi primera página!</p>
+
+    <p>La página contiene el primer formulario que realicé como también los enlaces a los demás trabajos 
+      que están almacenados en Github.
+    </p>
+
+    <h2>Enlaces a Github</h2>
+
+    <a href=""></a>
+    
+
+  </section>
+
+  <!-- Formulario -->
+  <aside>
+    <h2>Registro</h2>
+    <form name="Registro" id="Registro" method="get" autocomplete="off">
+      <label for="Nombre">Nombre</label><br>
+      <input type="text" required placeholder="Ej: Pedro" title="Escriba su primer nombre" name="Nombre" id="Nombre"><br><br>
+
+
+      <label for="Primer apellido">Primer Apellido</label><br>
+      <input type="text" required placeholder="Ej: Urdemales" title="Escriba su primer apellido" su primer apellido"
+        name="Primer apellido" id="Primer apellido"><br><br>
+
+      <label for="Segundo apellido">Segundo Apellido</label><br>
+      <input type="text" required placeholder="Ej: Arellano" title="Escriba su segundo apellido" name="Segundo apellido"
+        id="Segundo apellido"><br><br>
+
+      <label for="Edad">Edad</label><br>
+      <input type="number" min="1" max="100" required placeholder="Ej: 22" title="Seleccione o escriba su edad" name="Edad" id="Edad"><br><br>
+
+      <label for="Email">Email</label><br>
+      <input type="email" required placeholder="Ej: urdemales@gmail.com" title="Escriba su dirección de email" name="Email"
+        id="Email"><br><br>
+
+      <label for="Dom">Domicilio</label><br>
+      <input type="text" required placeholder="Ej: Las Quilas 665, Temuco"
+        title="Especifique su dirección con: calle, número y ciudad" name="Dom" id="Dom"><br><br>
+
+      <label for="aler">Sufre de alergias</label><br>
+      <input type="radio" name=opción value="1"> SI<br>
+      <input type="radio" name=opción value="2"> NO<br>
+    
+
+      <label for="Meds">Medicamentos Contraindicados</label><br>
+      <input type="text" required placeholder="Ej: Penicilina y Paracetamol"
+        title="En caso de no tener Medicamentos Contraindicados, solo escribir 'NO'" name="Meds" id="Meds"><br><br>
+
+      <input type="submit" value="enviar ">
+    </form>
+  </aside>
+
+
+
+  <p>Debería haber más cosas aquí, pero todavía no sé
+    qué poner.
+
+    <!-- fecha y creador -->
+  <address>Creada el 27 de abril del 2022
+    <br>por S. Huenupil.
+  </address>
+
+</body>
+
+</html>
